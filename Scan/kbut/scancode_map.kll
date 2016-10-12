@@ -1,0 +1,83 @@
+Name = MD1;
+Version = 0.3;
+Author = "HaaTa (Jacob Alexander) 2014-2015";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2015-08-16;
+
+
+S0x00 : U"Equal";
+S0x01 : U"0";
+S0x02 : U"9";
+S0x03 : U"8";
+S0x04 : U"7";
+S0x05 : U"6";
+S0x06 : U"LBrace";
+S0x07 : U"Backspace";
+S0x10 : U"Minus";
+S0x11 : U"p";
+S0x12 : U"o";
+S0x13 : U"i";
+S0x14 : U"u";
+S0x15 : U"y";
+S0x16 : U"RBrace";
+S0x17 : U"Space";
+S0x20 : U"Quote";
+S0x21 : U"Semicolon";
+S0x22 : U"l";
+S0x23 : U"k";
+S0x24 : U"j";
+S0x25 : U"h";
+S0x26 : U"Delete";
+S0x27 : U"LAlt";
+S0x30 : U"Home";
+S0x31 : U"Slash";
+S0x32 : U"Period";
+S0x33 : U"Comma";
+S0x34 : U"m";
+S0x35 : U"n";
+S0x37 : U"Function2";
+S0x48 : U"Backtick";
+S0x49 : U"1";
+S0x4A : U"2";
+S0x4B : U"3";
+S0x4C : U"4";
+S0x4D : U"5";
+S0x4E : U"RGui";
+S0x4F : U"Shift";
+S0x58 : U"Tab";
+S0x59 : U"q";
+S0x5A : U"w";
+S0x5B : U"e";
+S0x5C : U"r";
+S0x5D : U"t";
+S0x5E : U"LGui";
+S0x5F : U"Enter";
+S0x68 : U"Y";
+S0x69 : U"a";
+S0x6A : U"s";
+S0x6B : U"d";
+S0x6C : U"f";
+S0x6D : U"g";
+S0x6E : U"Y";
+S0x6F : U"Ctrl";
+S0x78 : U"Esc";
+S0x79 : U"z";
+S0x7A : U"x";
+S0x7B : U"c";
+S0x7C : U"v";
+S0x7D : U"b";
+S0x7F : U"Function1";
+
+# Custom Action Examples
+
+# Example capability, prints to cli
+action1 => CustomAction_action1_capability(); # No arguments
+
+# Blocks given USB Code, must be used with blockLink
+# Simple example, supports only blocking a single key at a time
+# Keys must be specified using numbers see Macro/PartialMap/usb_hid.h
+blockHold => CustomAction_blockHold_capability( usbCode : 1 ); # Single 8-bit argument
+blockKey => CustomAction_blockKey_capability( usbCode : 1 );
+
