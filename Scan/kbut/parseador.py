@@ -21,3 +21,21 @@ Right Hand
   0x7F  0x6F  0X5F  0X4F 
 
 '''
+
+lh = [
+         '`'   , '1' , '2' , '3' , '4' , '5' , 'f1' ,
+	'Tab'  , 'q' , 'w' , 'e' , 'r' , 't' , 'f2' ,
+	  ''   , 'a' , 's' , 'd' , 'f' , 'g' , 'f3' ,
+	'Esc'  , 'z' , 'x' , 'c' , 'v' , 'b' ,
+		   'Alt' , 'Return' , 'Ctrl' , 'function1'
+]
+
+lh = [
+        'f4' , '6' , '7' , '8' , '9' , '0' , '=' ,
+	'f5' , 'y' , 'u' , 'i' , 'o' , 'p' , '' ,
+	'f6' , 'h' , 'j' , 'k' , 'l' , ';' , '' ,
+	       'n' , 'm' , ',' , '.' , '/' , '' ,
+    'Function2' , 'LGui' , 'Space' , 'Backspace'
+]
+for x in lh:
+	print x
