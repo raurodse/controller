@@ -29,8 +29,7 @@ DefaultMap="md1Overlay stdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="hhkbpro2"
-PartialMaps[2]="colemak"
+PartialMaps[1]="kbut"
 
 
 

@@ -13,7 +13,7 @@ S0x03 : U"3";
 S0x04 : U"4";
 S0x05 : U"5";
 S0x06 : U"RGui";
-S0x07 : U"Shift";
+S0x07 : U"Ctrl";
 S0x10 : U"Tab";
 S0x11 : U"q";
 S0x12 : U"w";
@@ -22,7 +22,7 @@ S0x14 : U"r";
 S0x15 : U"t";
 S0x16 : U"LGui";
 S0x17 : U"LAlt";
-S0x20 : U"Ctrl";
+S0x20 : U"Shift";
 S0x21 : U"a";
 S0x22 : U"s";
 S0x23 : U"d";
@@ -68,6 +68,7 @@ S0x7B : U"Comma";
 S0x7C : U"m";
 S0x7D : U"n";
 S0x7F : U"Function2";
+U"Function1" : layerShift(1);
 
 # Custom Action Examples
 
