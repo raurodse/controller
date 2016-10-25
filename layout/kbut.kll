@@ -1,0 +1,34 @@
+Name = kbut;
+Version = 0.3;
+Author = "Kbut (Jacob Alexander) 2014-2015";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2015-08-16;
+
+S0x7A : U"Right";
+S0x7B : U"Down";
+S0x7C : U"Left";
+S0x6B : U"Up";
+
+S0x00 : U"F11";
+S0x01 : U"F1";
+S0x02 : U"F2";
+S0x03 : U"F3";
+S0x04 : U"F4";
+S0x05 : U"F5";
+S0x48 : U"F12";
+S0x49 : U"F10";
+S0x4A : U"F9";
+S0x4B : U"F8";
+S0x4C : U"F7";
+S0x4D : U"F6";
+
+S0x68 : U"PageUp"; 
+S0x78 : U"PageDown";
+S0x5D : U"Shift" + U"9";
+S0x5C : U"Shift" + U"0";
+S0x5B : U"Shift" + U"[";
+S0x5A : U"Shift" + U"]";
+S0x6D : U"[";
+S0x6C : U"]";

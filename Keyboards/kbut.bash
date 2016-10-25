@@ -66,7 +66,8 @@ if [ ! -f cmake.bash ]; then
 	echo "ERROR: Cannot find 'cmake.bash'"
 	exit 1
 fi
-
+mkdir -p ../kll/layouts/ || true
+cp ../layouts/* ../kll/layouts
 # Load the library
 source cmake.bash
 
